@@ -1,0 +1,66 @@
+/*
+    Color 1: #a6192e
+    Color 2: #463d36
+
+    Font: sans-serif;
+
+    Text:
+        Open daily: 28px bold
+        Banana Peel: 40px lighter weight
+        Winter has: 28px
+        Lift (Btn): 24px bold
+
+    Container
+        - 600px width
+    Padding for content
+        - 40px
+
+    Button Padding
+        - 30px 40px
+*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #463d36;
+    color: #463d36;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 600px;
+    padding: 40px;
+    margin: 50px auto;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 28px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #a6192e;
+}
+
+p {
+    font-size: 28px;
+    margin-bottom: 28px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+button {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 30px 40px;
+    color: whitesmoke;
+    background-color: #463d36;
+}
