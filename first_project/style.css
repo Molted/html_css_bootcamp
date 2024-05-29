@@ -53,8 +53,38 @@ a.active {
     object-fit: cover;
 }
 
+.card img:hover {
+    opacity: 0.9;
+}
+
 .card h2 {
     display: inline-block;
     margin: 16px 0 0 0;
     font-weight: 300;
+}
+
+.about {
+    width: 40%;
+    min-width: 600px;
+    margin: 100px 0 100px 200px;
+}
+
+.about h3 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.contact {
+    margin-top: 100px;
+}
+
+.contact p {
+    font-size: 20px;
+}
+
+.cta {
+    margin: 30px 0 100px;
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
 }
