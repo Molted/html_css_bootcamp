@@ -47,15 +47,6 @@ h1 {
     color: rgb(83, 49, 156);
     position: relative;
 }
-
-.line {
-    height: 3px;
-    width: 100%;
-    position: absolute;
-    top: 100px;
-    background-color: rgb(231, 231, 231);
-}
-
 .tabs .active::before {
     content: "";
     width: 200%;
@@ -66,4 +57,12 @@ h1 {
     bottom: -34px;
     z-index: 2;
     border-radius: 10px;
+}
+
+.line {
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    background-color: rgb(231, 231, 231);
 }
